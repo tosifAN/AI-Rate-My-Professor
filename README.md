@@ -24,6 +24,8 @@ Make Changes: Implement your feature or  or bugfix.
 Commit and Push: Commit your changes with a clear and descriptive message.
 
 git commit -m "your-message"
+
 git push 
+
 Submit a Pull Request: Open a pull request to the main repository. Please include a the issue code in description.
 
