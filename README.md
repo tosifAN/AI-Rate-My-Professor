@@ -1,6 +1,4 @@
-**Rate My Professor AI Assistant** project:
 
----
 
 # Rate My Professor AI Assistant
 
@@ -19,7 +17,7 @@ please follow these steps:
 
 Fork the Repository: Start by forking the repository to your GitHub account.
 
-Make Changes: Implement your feature or  or bugfix.
+Make Changes: Do your task.
 
 Commit and Push: Commit your changes with a clear and descriptive message.
 
@@ -27,5 +25,5 @@ git commit -m "your-message"
 
 git push 
 
-Submit a Pull Request: Open a pull request to the main repository. Please include a the issue code in description.
+Submit a Pull Request: Open a pull request to the main repository. Please include the issue code in description.
 
