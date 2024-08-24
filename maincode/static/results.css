@@ -1,0 +1,138 @@
+/* General body and form styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa; /* Lighter background */
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Darker header text */
+    padding: 20px;
+    background-color: #e7f2ff; /* Lighter blue background for header */
+    margin: 0;
+    font-size: 2.5em;
+    border-bottom: 4px solid #99d1ff; /* Lighter blue border */
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light background */
+  }
+  
+  .form-group input[type="number"]::-webkit-inner-spin-button,
+  .form-group input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Chrome, Safari */
+    margin: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results styling */
+  .results {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .professor-profile {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f5f7fa; /* Lighter background */
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .professor-profile p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .professor-profile p strong {
+    color: #007bff;
+  }
+  
+  .professor-profile ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .professor-profile li {
+    margin-bottom: 15px;
+  }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #007bff; /* Blue color */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  .back-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+  }

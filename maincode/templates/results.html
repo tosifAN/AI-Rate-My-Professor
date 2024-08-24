@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+        <h1>Search Results</h1>
+    <div class="results">
+        <p><strong>Based on your criteria, I recommend:</strong></p>
+        {% if message %}
+            <div class="professor-profile">
+                {{ message|safe }}
+            </div>
+        {% else %}
+            <p>No relevant results found based on your criteria.</p>
+        {% endif %}
+     </div>
+     <a href="{{ url_for('index') }}" class="back-link">Back to Search</a>
+
+     <div class="container">
+        <h2>Submit Professor Information</h2>
+        <form action="{{ url_for('submit_professor') }}" method="post">
+            <!-- Professor Name -->
+            <div class="form-group">
+                <label for="name">Professor Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter professor's name" required>
+            </div>
+    
+            <!-- University -->
+            <div class="form-group">
+                <label for="university">University:</label>
+                <input type="text" id="university" name="university" placeholder="Enter university name" required>
+            </div>
+    
+            <!-- Subject -->
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject taught" required>
+            </div>
+    
+            <!-- Speciality -->
+            <div class="form-group">
+                <label for="speciality">Speciality:</label>
+                <input type="text" id="speciality" name="speciality" placeholder="Enter speciality or area of expertise" required>
+            </div>
+    
+            <!-- Rating -->
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                 <input type="number" id="rating" name="rating" step="0.1" min="0" max="5" placeholder="Enter rating (0.0 - 5.0)" required>
+            </div>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+   
+</body>
+</html>

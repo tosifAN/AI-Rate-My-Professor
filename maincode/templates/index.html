@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="hero">
+        <h1>Discover Your Ideal Professor</h1>
+        <p>Search for professors based on expertise, teaching style, or ratings with ease.</p>
+    </div>
+
+    <div class="container">
+        <form action="{{ url_for('search') }}" method="post">
+            <label for="query">Enter your criteria:</label>
+            <input type="text" id="query" name="query" placeholder="E.g., practical teaching, robotics, high rating" required>
+
+            <label for="suggestions">Or choose a suggestion:</label>
+            <select id="suggestions" name="suggestions" class="suggestions" onchange="updateQuery()">
+                <option value="">-- Select a suggestion --</option>
+                <option value="good at practical teaching">Find a professor who is good at practical teaching</option>
+                <option value="expert in artificial intelligence">Find a professor who is an expert in artificial intelligence</option>
+                <option value="highest rating">Find the professor with the highest rating</option>
+                <option value="great at interactive classes">Find a professor who excels in interactive classes</option>
+                <option value="more than 10 years of experience">Find a professor with more than 10 years of experience</option>
+                <option value="specializes in robotics">Find a professor who specializes in robotics</option>
+                <option value="project-based teaching">Find a professor who uses project-based teaching methods</option>
+                <option value="available for mentorship">Find a professor available for mentorship</option>
+                <option value="computer science department">Find a professor in the Computer Science department</option>
+            </select>
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    
+    <div class="container">
+        <h2>List of Professors</h2>
+        <div class="professor-cards">
+            {% for professor in professors %}
+            <div class="professor-card">
+                <h3>{{ professor.name }}</h3>
+                <p><strong>University:</strong> {{ professor.university }}</p>
+                <p><strong>Subject:</strong> {{ professor.subject }}</p>
+                <p><strong>Speciality:</strong> {{ professor.speciality }}</p>
+                <p><strong>Rating:</strong> {{ professor.rating }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    
+
+    <script>
+        function updateQuery() {
+            var select = document.getElementById('suggestions');
+            var input = document.getElementById('query');
+            input.value = select.value;
+            if (select.value) {
+                document.querySelector('form').submit();
+            }
+        }
+    </script>
+</body>
+</html>

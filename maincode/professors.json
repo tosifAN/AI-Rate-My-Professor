@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. John Smith",
+        "university": "Stanford University",
+        "subject": "Computer Science",
+        "rating": 4.5,
+        "speciality": "Expert in algorithms and data structures. Known for engaging lectures and practical assignments."
+    },
+    {
+        "id": 2,
+        "name": "Prof. Emily Johnson",
+        "university": "Harvard University",
+        "subject": "Mathematics",
+        "rating": 4.7,
+        "speciality": "Specializes in calculus and linear algebra. Uses real-world problems to illustrate concepts."
+    },
+    {
+        "id": 3,
+        "name": "Dr. Michael Brown",
+        "university": "MIT",
+        "subject": "Physics",
+        "rating": 4.3,
+        "speciality": "Focuses on quantum mechanics and electromagnetism. Provides extensive problem sets for practice."
+    },
+    {
+        "id": 4,
+        "name": "Prof. Jessica Davis",
+        "university": "Yale University",
+        "subject": "Biology",
+        "rating": 4.8,
+        "speciality": "Expert in genetics and molecular biology. Incorporates hands-on lab work in her classes."
+    },
+    {
+        "id": 5,
+        "name": "Dr. William Martinez",
+        "university": "University of California, Berkeley",
+        "subject": "Chemistry",
+        "rating": 4.4,
+        "speciality": "Specializes in organic chemistry. Known for interactive lectures and detailed explanations."
+    },
+    {
+        "id": 6,
+        "name": "Prof. Sarah Wilson",
+        "university": "Princeton University",
+        "subject": "History",
+        "rating": 4.6,
+        "speciality": "Focuses on modern history and historiography. Uses multimedia resources to enhance learning."
+    },
+    {
+        "id": 7,
+        "name": "Dr. James Anderson",
+        "university": "University of Chicago",
+        "subject": "Economics",
+        "rating": 4.2,
+        "speciality": "Expert in macroeconomics and econometrics. Emphasizes data analysis in lectures."
+    },
+    {
+        "id": 8,
+        "name": "Prof. Linda Thomas",
+        "university": "California Institute of Technology",
+        "subject": "Engineering",
+        "rating": 4.9,
+        "speciality": "Specializes in mechanical engineering and robotics. Known for project-based learning."
+    },
+    {
+        "id": 9,
+        "name": "Dr. Robert Taylor",
+        "university": "Columbia University",
+        "subject": "Philosophy",
+        "rating": 4.1,
+        "speciality": "Focuses on ethics and logic. Encourages critical thinking and debate in classes."
+    },
+    {
+        "id": 10,
+        "name": "Prof. Patricia Lee",
+        "university": "University of Oxford",
+        "subject": "Literature",
+        "rating": 4.5,
+        "speciality": "Expert in contemporary literature and literary theory. Uses diverse reading materials in her courses."
+    },
+    {
+        "id": 11,
+        "name": "Dr. Charles White",
+        "university": "London School of Economics",
+        "subject": "Political Science",
+        "rating": 4.7,
+        "speciality": "Specializes in international relations and political theory. Incorporates current events into discussions."
+    },
+    {
+        "id": 12,
+        "name": "Prof. Barbara Harris",
+        "university": "University of Cambridge",
+        "subject": "Sociology",
+        "rating": 4.3,
+        "speciality": "Focuses on social theories and research methods. Encourages group projects and fieldwork."
+    },
+    {
+        "id": 13,
+        "name": "Dr. David Clark",
+        "university": "University of Toronto",
+        "subject": "Statistics",
+        "rating": 4.6,
+        "speciality": "Expert in probability and statistical inference. Provides practical exercises and data analysis labs."
+    },
+    {
+        "id": 14,
+        "name": "Prof. Karen Lewis",
+        "university": "University of Washington",
+        "subject": "Geology",
+        "rating": 4.4,
+        "speciality": "Specializes in earth processes and mineralogy. Uses field trips to complement classroom learning."
+    },
+    {
+        "id": 15,
+        "name": "Dr. Richard Walker",
+        "university": "Harvard University",
+        "subject": "Astronomy",
+        "rating": 4.8,
+        "speciality": "Focuses on astrophysics and observational astronomy. Includes stargazing sessions and practical experiments."
+    },
+    {
+        "id": 16,
+        "name": "Prof. Nancy Hall",
+        "university": "Yale University",
+        "subject": "Art History",
+        "rating": 4.2,
+        "speciality": "Expert in Renaissance art and art criticism. Uses visual aids and gallery visits for teaching."
+    },
+    {
+        "id": 17,
+        "name": "Dr. Joseph Allen",
+        "university": "Stanford University",
+        "subject": "Environmental Science",
+        "rating": 4.6,
+        "speciality": "Specializes in ecological systems and sustainability. Known for field-based research and projects."
+    },
+    {
+        "id": 18,
+        "name": "Prof. Lisa Young",
+        "university": "Juilliard School",
+        "subject": "Music",
+        "rating": 4.5,
+        "speciality": "Focuses on music theory and composition. Includes hands-on music creation and performance."
+    },
+    {
+        "id": 19,
+        "name": "Dr. Daniel Scott",
+        "university": "University of Pennsylvania",
+        "subject": "Anthropology",
+        "rating": 4.3,
+        "speciality": "Expert in cultural anthropology and ethnography. Uses fieldwork and ethnographic studies in teaching."
+    },
+    {
+        "id": 20,
+        "name": "Prof. Maria King",
+        "university": "University of California, Berkeley",
+        "subject": "Languages",
+        "rating": 4.7,
+        "speciality": "Specializes in linguistics and second language acquisition. Encourages immersive language practice."
+    },
+    {
+        "id": 21,
+        "name": "Dr. Christopher Wright",
+        "university": "Massachusetts Institute of Technology",
+        "subject": "Computer Engineering",
+        "rating": 4.4,
+        "speciality": "Focuses on embedded systems and VLSI design. Uses hands-on projects and simulations in classes."
+    },
+    {
+        "id": 22,
+        "name": "Prof. Susan Lopez",
+        "university": "New York University",
+        "subject": "Theater",
+        "rating": 4.6,
+        "speciality": "Expert in drama and performance studies. Encourages live performances and improvisational exercises."
+    },
+    {
+        "id": 23,
+        "name": "Dr. Steven Adams",
+        "university": "Princeton University",
+        "subject": "Ethics",
+        "rating": 4.2,
+        "speciality": "Specializes in moral philosophy and applied ethics. Promotes philosophical debates and ethical discussions."
+    },
+    {
+        "id": 24,
+        "name": "Prof. Angela Baker",
+        "university": "Johns Hopkins University",
+        "subject": "Public Health",
+        "rating": 4.5,
+        "speciality": "Focuses on epidemiology and health policy. Uses case studies and public health simulations."
+    },
+    {
+        "id": 25,
+        "name": "Dr. Edward Nelson",
+        "university": "Wharton School, University of Pennsylvania",
+        "subject": "Finance",
+        "rating": 4.7,
+        "speciality": "Expert in corporate finance and investment strategies. Incorporates real-world financial scenarios into teaching."
+    },
+    {
+        "id": 26,
+        "name": "Prof. Elizabeth Carter",
+        "university": "University of California, Los Angeles",
+        "subject": "Urban Studies",
+        "rating": 4.4,
+        "speciality": "Specializes in urban planning and development. Uses case studies and city planning simulations."
+    },
+    {
+        "id": 27,
+        "name": "Dr. Brian Mitchell",
+        "university": "University of Oxford",
+        "subject": "Health Sciences",
+        "rating": 5.0,
+        "speciality": "Focuses on clinical research and health diagnostics. Known for interactive labs and simulations."
+    },
+    {
+        "id": 28,
+        "name": "Prof. Margaret Roberts",
+        "university": "University of Edinburgh",
+        "subject": "Geography",
+        "rating": 4.3,
+        "speciality": "Expert in physical geography and spatial analysis. Uses mapping tools and field studies in teaching."
+    },
+    {
+        "id": 29,
+        "name": "Dr. Kevin Stewart",
+        "university": "University of Southern California",
+        "subject": "Engineering Management",
+        "rating": 4.6,
+        "speciality": "Specializes in project management and systems engineering. Emphasizes real-world project management skills."
+    },
+    {
+        "id": 30,
+        "name": "Prof. Jessica Martin",
+        "university": "Northwestern University",
+        "subject": "Journalism",
+        "rating": 4.5,
+        "speciality": "Focuses on media ethics and investigative journalism. Includes hands-on reporting and editing exercises."
+    },
+    {
+        "id": 31,
+        "name": "Dr. Anthony Turner",
+        "university": "Georgia Institute of Technology",
+        "subject": "Robotics",
+        "rating": 4.7,
+        "speciality": "Expert in autonomous systems and robotic programming. Uses practical robotics labs and simulations."
+    },
+    {
+        "id": 32,
+        "name": "Prof. Karen Young",
+        "university": "University of Michigan",
+        "subject": "Sociology",
+        "rating": 4.4,
+        "speciality": "Focuses on social networks and community studies. Encourages fieldwork and social research projects."
+    },
+    {
+        "id": 33,
+        "name": "Dr. Thomas Green",
+        "university": "Carnegie Mellon University",
+        "subject": "Cybersecurity",
+        "rating": 5.0,
+        "speciality": "Specializes in network security and cryptography. Provides hands-on labs and cybersecurity simulations."
+    },
+    {
+        "name": "Dr. Emily Carter",
+        "university": "Stanford University",
+        "subject": "Machine Learning",
+        "speciality": " Expert in deep learning and neural networks. Uses a combination of theoretical and practical approaches in her teaching.",
+        "rating": 4
+    },
+    {
+        "name": "Dr. Alistair Penrose",
+        "university": "Meridian Institute of Advanced",
+        "subject": "Quantum Biophysics",
+        "speciality": "Theoritical models of quantum interactions in biological systems",
+        "rating": 3.4,
+        "added_on": "2024-08-24T10:51:56.824508Z"
+    },
+    {
+        "name": "Dr. Linda ",
+        "university": "Meridian Institute of Advanced Studies",
+        "subject": "Quantum Biophysics",
+        "speciality": "Theorotical models of quantum interactions in biological systems",
+        "rating": 4.6
+    },
+    {
+        "name": "Dr. Brian Carter",
+        "university": "Westfield University",
+        "subject": "Environmental Science",
+        "speciality": "Sustainable resource management and conservation stratergies",
+        "rating": 3.8
+    },
+    {
+        "name": "Tosif Ansari",
+        "university": "Maulana Azad ",
+        "subject": "DSA",
+        "speciality": "Monarch",
+        "rating": 5.0
+    }
+]
