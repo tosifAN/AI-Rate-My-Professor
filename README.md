@@ -12,18 +12,9 @@ Key features of the project include:
 The project serves as a practical example of how to build AI-powered applications that require access to specific, up-to-date information.
 
 
-## Contributing
-please follow these steps:
-
-Fork the Repository: Start by forking the repository to your GitHub account.
-
-Make Changes: Do your task.
-
-Commit and Push: Commit your changes with a clear and descriptive message.
-
-git commit -m "your-message"
-
-git push 
-
-Submit a Pull Request: Open a pull request to the main repository. Please include the issue code in description.
-
+5 Projects;
+1 - Resume portfolio
+2 - Inventory Management Crud Application
+3 - chatbot
+4 - AI flashcard
+5 - Rag AI Professor Application
